@@ -1,4 +1,4 @@
-require('./index');
+require('../core/index');
 
 import {assert, expect} from 'chai'
 import wxPromise from '../../src/components/mrc/wxPromise';

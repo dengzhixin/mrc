@@ -16,10 +16,7 @@ App({
 				enable: true,			//选填，是否开启缓存，默认false
 				type: 'timeout',		//选填，开启缓存类型，定时(timeout)、快照(snapshot)，默认定时
 				timeout: 600000,			//选填，定时缓存时间，使用优先级，当前配置>全局配置>默认配置
-			},
-			data: {
-				shake_param: 'xxxx'
-			},
+			}
 		})
 			.then((res) => {
 			debugger;

@@ -10,7 +10,7 @@ App({
 	onLaunch: function () {
 
 		this.wxp.request({
-			url: 'http://fe.wxpay.oa.com/mock_server/mock/18/carnival/shakehb',
+			url: 'http://xxxxxx',
 			method: 'POST',
 			cache: {
 				enable: true,			//选填，是否开启缓存，默认false

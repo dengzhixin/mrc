@@ -22,13 +22,13 @@ App({
 ```javascript
 //page.js
 const app = getApp()
-
+let {wxp} = app
 Page({
 	data: {
 
 	},
 	onLoad: function () {
-		this.wxp.request({
+		wxp.request({
 			url: 'http://xxxxxx',
 			cache: {
 				enable: true,			    //选填，是否开启缓存，默认false
